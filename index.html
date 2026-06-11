@@ -7,45 +7,51 @@
       body {
         margin: 0 auto;
         width: 960px;
+        background-color: gray;
       } 
+
+      .white { color: white; }
+      .black { color: black; }
       
     /* 스마트폰 */
       @media screen and (max-width: 767px) {
-        body { background-color: red; }
+        .background { background-color: white; }
       }
     /* 태블릿PC */
       @media screen and (min-width: 768px) and (max-width: 959px) {
-        body { background-color: green; }
+        .background { background-color: gray; }
       }
     /* 데스크톱 */
       @media screen and (min-width: 960px) {
-        body { background-color: blue; }
+        .background { background-color: black; }
       }
     </style>
   </head>
   <body>
-    <h1 color="white">삶이 그대를 속일지라도</h1>
-    <h1 color="black">Если жизнь тебя обманет</h1>
+    <h1 class="background white">삶이 그대를 속일지라도</h1>
+    <h1 class="background black">Если жизнь тебя обманет</h1>
 
-    <h2 color="white">알렉산드르 푸시킨</h2>
-    <h2 color="black">Александр Пушкин</h2>
+    <h2 class="background white">알렉산드르 푸시킨</h2>
+    <h2 class="background black">Александр Пушкин</h2>
 
-    <p color="white">삶이 그대를 속일지라도</p>
-    <p color="black">Если жизнь тебя обманет</p>
-    <p color="white">슬퍼하거나 노여워 말라</p>
-    <p color="black">Не печалься, не сердись</p>
-    <p color="white">슬픈 날을 참고 견디면</p>
-    <p color="black">В день уныния смирись</p>
-    <p color="white">기쁜 날이 오리니</p>
-    <p color="black">День веселья, верь, настанет</p>
-    <p color="white">마음은 미래를 바라느니</p>
-    <p color="black">Сердце в будущем живёт</p>
-    <p color="white">현재는 한없이 우울한 것</p>
-    <p color="black">Настоящее уныло</p>
-    <p color="white">모든 것 하염없이 사라지나</p>
-    <p color="black">Всё мгновенно, всё пройдет</p>
-    <p color="white">지나간 것 그리움이 되리라</p>
-    <p color="black">Что пройдёт, то будет мило</p>
-    
+    <p class="background white">삶이 그대를 속일지라도</p>
+    <p class="background black">Если жизнь тебя обманет</p>
+    <p class="background white">슬퍼하거나 노여워 말라</p>
+    <p class="background black">Не печалься, не сердись</p>
+    <p class="background white">슬픈 날을 참고 견디면</p>
+    <p class="background black">В день уныния смирись</p>
+    <p class="background white">기쁜 날이 오리니</p>
+    <p class="background black">День веселья, верь, настанет</p>
+    <p class="background white">마음은 미래를 바라느니</p>
+    <p class="background black">Сердце в будущем живёт</p>
+    <p class="background white">현재는 한없이 우울한 것</p>
+    <p class="background black">Настоящее уныло</p>
+    <p class="background white">모든 것 하염없이 사라지나</p>
+    <p class="background black">Всё мгновенно, всё пройдет</p>
+    <p class="background white">지나간 것 그리움이 되리라</p>
+    <p class="background black">Что пройдёт, то будет мило</p>
+
+    <h1 class="background white">"핸드폰에서는 러시아어가, pc에서는 한국어가 보입니다." </h1>
+    <h1 class="background black">"핸드폰에서는 러시아어가, pc에서는 한국어가 보입니다."</h1>
   </body>
 </html>
